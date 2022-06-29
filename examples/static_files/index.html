@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="mvp.css">
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <title>GreenLight</title>
+</head>
+
+</head>
+<body>
+    <header>
+        <h1 id="title">Greenlight</h1>
+    </header>
+    <main>
+        <section>
+            <header><h2>Login</h2></header>
+            <a href="/api/auth/github/login"><em><img src="github-icon.svg" style="height: 1.5em"><br>Login with GitHub</b></em></a>
+            <a href="/api/auth/google/login"><em><img src="google-icon.svg" style="height: 1.5em"><br>Login with Google</em></a>
+        </section>
+        <section>
+            <header><h2>Data</h2></header>
+            <aside>
+                <h3>User</h3>
+                <a href="/api/auth/user">User</a>
+            </aside>
+            <aside>
+                <h3>Logout</h3>
+                <a href="/api/auth/logout">Logout</a>
+            </aside>
+        </section>
+    </main>
+</body>
+
+</html>
